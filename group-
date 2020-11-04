@@ -19,7 +19,7 @@ cdrom:x:24:
 floppy:x:25:
 tape:x:26:
 sudo:x:27:
-audio:x:29:
+audio:x:29:pulse
 dip:x:30:
 www-data:x:33:
 backup:x:34:
@@ -55,3 +55,15 @@ uuidd:x:115:
 tcpdump:x:116:
 systemd-coredump:x:999:
 check:x:1000:
+incron:x:117:
+rtkit:x:118:
+bluetooth:x:119:
+lpadmin:x:120:
+geoclue:x:121:
+avahi:x:122:
+netdev:x:123:
+scanner:x:124:saned
+saned:x:125:
+colord:x:126:
+pulse:x:127:
+pulse-access:x:128:
