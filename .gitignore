@@ -7,3 +7,4 @@ mrt/
 !incron.conf
 !incron.d/
 !incron.deny
+!ntp.conf
