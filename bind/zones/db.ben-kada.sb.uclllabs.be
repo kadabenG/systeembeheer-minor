@@ -4,23 +4,21 @@
 ; Instead, copy it, edit named.conf, and use that copy.
 ;
 $TTL	300
-@	IN	SOA	arthur-joppart.sb.uclllabs.be. root.arthur-joppart.sb.uclllabs.be. (
+@	IN	SOA	ben-kada.sb.uclllabs.be. root.ben-kada.sb.uclllabs.be. (
 			      	420	; Serial
 			 	300	; Refresh
 			  	300	; Retry
 				300	; Expire
 			  	300 )	; Negative Cache TTL
-;Name servers
-arthur-joppart.sb.uclllabs.be.	IN	NS	ns.arthur-joppart.sb.uclllabs.be.
-arthur-joppart.sb.uclllabs.be.	IN	NS	ns1.uclllabs.be.
-arthur-joppart.sb.uclllabs.be.	IN	NS	ns2.uclllabs.be.
-;records
+;name servers - NS records
+	IN	NS	ns.ben-kada.sb.uclllabs.be.
+	IN	NS	ns1.uclllabs.be.
+	IN	NS	ns2.uclllabs.be.
 
-ns	IN	A	193.191.177.133
-@	IN	A	193.191.177.133
-www	IN	A	193.191.177.133
-www1	IN	A	193.191.177.133
-www2	IN	A	193.191.177.133
-secure	IN	A	193.191.177.133
-supersecure	IN	A	193.191.177.133
-test	IN	A	193.191.177.254
+;name servers -A records
+ns.ben-kada.sb.uclllabs.be.	IN	A	193.191.177.138
+ns1.uclllabs.be.		IN	A	193.191.176.254
+ns2.uclllabs.be.		IN	A	193.191.177.4
+
+;hosts - A records
+ben-kada.sb.uclllabs.be.		IN	A	193.191.177.138
