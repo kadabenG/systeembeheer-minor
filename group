@@ -69,3 +69,4 @@ pulse:x:127:
 pulse-access:x:128:
 gdm:x:129:
 ntp:x:130:
+bind:x:131:

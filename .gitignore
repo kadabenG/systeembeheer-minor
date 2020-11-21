@@ -8,3 +8,4 @@ mrt/
 !incron.d/
 !incron.deny
 !ntp.conf
+!bind
