@@ -1,0 +1,24 @@
+; zone file for ben-kada.sb.uclllabs.be
+$ORIGIN ben-kada.sb.uclllabs.be.
+$TTL 2d    ; 172800 secs default TTL for zone
+@             IN      SOA   ns.ben-kada.sb.uclllabs.be. root.ben-kada.sb.uclllabs.be. (
+                                                          2003080801 ; se = serial number
+                                                          12h        ; ref = refresh
+                                                          15m        ; ret = update retry
+                                                          3w         ; ex = expiry
+                                                          3h )        ; min = minimum
+;	
+
+$ORIGIN ben-kada.sb.uclllabs.be.
+@               IN      NS      ns.ben-kada.sb.uclllabs.be.
+@               IN      NS      ns1.uclllabs.be.
+@               IN      NS      ns2.uclllabs.be.
+
+
+@              IN      A       193.191.177.189
+ns             IN      A       193.191.177.189
+www            IN      A       193.191.177.189
+www1           IN      A       193.191.177.189
+www2           IN      A       193.191.177.189
+
+test           IN      A       193.191.177.254

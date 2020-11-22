@@ -6,12 +6,12 @@
 // organization
 //include "/etc/bind/zones.rfc1918";
 
-zone "ben-kada.sb.uclllabs.be"{
+zone "ben-kada.sb.uclllabs.be" IN {
 	type master;
-	file "/etc/bind/zones/db.ben-kada.sb.uclllabs.be";
+	notify yes;
+	file "/etc/bind/zones/ben-kada.sb.uclllabs.be.zone";
 	allow-transfer{
 		193.191.176.254;
 		193.191.177.4;
-		193.191.177.254;
 	};
 };
