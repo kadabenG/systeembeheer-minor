@@ -20,6 +20,16 @@
 ### tuple ### allow tcp 22345 ::/0 any ::/0 in
 -A ufw6-user-input -p tcp --dport 22345 -j ACCEPT
 
+### tuple ### allow any 53 ::/0 any ::/0 Bind9 - in
+-A ufw6-user-input -p tcp --dport 53 -j ACCEPT -m comment --comment 'dapp_Bind9'
+-A ufw6-user-input -p udp --dport 53 -j ACCEPT -m comment --comment 'dapp_Bind9'
+
+### tuple ### allow tcp 53 ::/0 any ::/0 in
+-A ufw6-user-input -p tcp --dport 53 -j ACCEPT
+
+### tuple ### allow udp 53 ::/0 any ::/0 in
+-A ufw6-user-input -p udp --dport 53 -j ACCEPT
+
 ### END RULES ###
 
 ### LOGGING ###
