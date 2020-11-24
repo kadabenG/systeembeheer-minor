@@ -4,7 +4,7 @@
 $TTL	86400
 $ORIGIN ben-kada.sb.uclllabs.be.
 @	IN	SOA	ns.ben-kada.sb.uclllabs.be. root.ben-kada.sb.uclllabs.be. (
-			      9		; Serial
+			      10		; Serial
 			 604800		; Refresh
 			  86400		; Retry
 			2419200		; Expire
