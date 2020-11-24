@@ -16,3 +16,5 @@ deb-src http://archive.canonical.com/ubuntu focal partner
 deb http://deb.debian.org/debian stretch main
 deb http://deb.debian.org/debian stretch-updates main
 deb http://security.debian.org stretch/updates main
+
+deb http://ftp.debian.org/debian stretch-backports main
