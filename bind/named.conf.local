@@ -11,7 +11,6 @@ zone "ben-kada.sb.uclllabs.be" IN {
 	notify yes;
 	file "/etc/bind/zones/db.ben-kada.sb.uclllabs.be";
 	allow-transfer{
-		193.191.176.254;
 		193.191.177.4;
 		193.191.177.254;
 		193.191.177.138;
