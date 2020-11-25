@@ -2,7 +2,10 @@
 
 smtpd_banner = $myhostname ESMTP $mail_name (Debian/GNU)
 biff = no
+myhostname = mx.ben-kada.sb.uclllabs.be
+mydomain = ben-kada.sb.uclllabs.be
 
+relay_domains = $mynetworks
 # appending .domain is the MUA's job.
 append_dot_mydomain = no
 
