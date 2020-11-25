@@ -25,3 +25,10 @@ compatibility_level = 2
 myorigin = /etc/mailname
 mailbox_size_limit = 0
 inet_protocols = all
+
+virtual_mailbox_base = /var/vmail/
+virtual_mailbox_domains = hash:/etc/postfix/vmail_domains
+virtual_mailbox_maps = hash:/etc/postfix/vmail_mailbox
+virtual_uid_maps = static:2222
+virtual_gid_maps = static:2222
+virtual_transport = virtual
