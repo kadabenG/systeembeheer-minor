@@ -4,7 +4,7 @@
 $TTL    86400
 $ORIGIN ben-kada.sb.uclllabs.be.
 @       IN      SOA    ns.ben-kada.sb.uclllabs.be. root.ben-kada.sb.uclllabs.be. (
-                     2003080802         ; Serial
+                     2003080804         ; Serial
                          604800         ; Refresh
                           86400         ; Retry
                         2419200         ; Expire
@@ -26,6 +26,8 @@ secure         IN      A       193.191.177.138
 supersecure    IN      A       193.191.177.138
 @              IN      CAA     0 issue "letsencrypt.org"
 
+@	       IN	MX     10  mx.ben-kada.sb.uclllabs.be.
+MX 		IN	 A	193.191.177.138
 
 test           IN      A       193.191.177.254
 
