@@ -9,3 +9,4 @@ mrt/
 !incron.deny
 !ntp.conf
 !bind
+!dovecot

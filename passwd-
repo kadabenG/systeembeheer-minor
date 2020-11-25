@@ -40,4 +40,6 @@ pulse:x:118:127:PulseAudio daemon,,,:/var/run/pulse:/usr/sbin/nologin
 gdm:x:119:129:Gnome Display Manager:/var/lib/gdm3:/bin/false
 ntp:x:120:130::/nonexistent:/usr/sbin/nologin
 bind:x:121:131::/var/cache/bind:/usr/sbin/nologin
-mysql:x:122:132::/nonexistent:/bin/false
+mysql:x:122:132:MySQL Server,,,:/nonexistent:/bin/false
+dovecot:x:123:133:Dovecot mail server,,,:/usr/lib/dovecot:/usr/sbin/nologin
+dovenull:x:124:134::/nonexistent:/usr/sbin/nologin
