@@ -1,0 +1,5 @@
+face eth0 inet6 static
+pre-up modprobe ipv6
+address 2001:6a8:2880:a077::138/64
+netmask 64
+gateway 2001:6a8:2880:a077::1
