@@ -4,11 +4,11 @@
 $TTL    86400
 $ORIGIN ben-kada.sb.uclllabs.be.
 @       IN      SOA    ns.ben-kada.sb.uclllabs.be. root.ben-kada.sb.uclllabs.be. (
-                     2003080804         ; Serial
-                         604800         ; Refresh
-                          86400         ; Retry
-                        2419200         ; Expire
-                          86400 )       ; Negative Cache TTL
+                     2003080805         ; Serial
+                            300       ; Refresh
+                            300         ; Retry
+                            300          ; Expire
+                            300 )       ; Negative Cache TTL
 
 ;name servers - NS records
 @       IN      NS      ns.ben-kada.sb.uclllabs.be.
